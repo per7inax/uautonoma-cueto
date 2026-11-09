@@ -1,0 +1,12 @@
+{
+  "name": "uautonoma-cueto",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing de la Universidad Autónoma Cueto desplegada en Netlify",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}
