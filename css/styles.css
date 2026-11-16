@@ -1276,3 +1276,35 @@ h1, h2, h3 { line-height: 1.2; font-weight: 700; letter-spacing: -0.02em; }
   .nav-dropdown { min-width: 0; }
   .nav-thumb { width: 40px; height: 40px; }
 }
+
+/* =========================================================
+   PAGOS EN LÍNEA
+   ========================================================= */
+.pago-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+.pago-info h2 { font-size: 1.5rem; margin-bottom: 18px; }
+.pago-info .page-list { margin-bottom: 18px; }
+.pago-form { max-width: none; }
+.pago-form select {
+  width: 100%;
+  padding: 13px 16px;
+  font: inherit;
+  color: var(--text);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.pago-form select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.15);
+  background: #fff;
+}
+@media (max-width: 900px) {
+  .pago-grid { grid-template-columns: 1fr; gap: 32px; }
+}
