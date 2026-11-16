@@ -1,0 +1,258 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1150" viewBox="0 0 1640 1150" font-family="Inter, Segoe UI, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker>
+  <filter id="sh" x="-5%" y="-5%" width="110%" height="115%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.08"/></filter>
+</defs>
+<rect width="1640" height="1150" fill="#f8f9fa"/>
+<text x="40" y="44" font-size="26" font-weight="800" fill="#1f2937">Universidad Autónoma Cueto · Arquitectura y modelo de datos</text>
+<text x="40" y="68" font-size="14" fill="#6b7280">Netlify (web y funciones) + Supabase (base de datos, autenticación y archivos) · 25 tablas · proyecto ficticio</text>
+<rect x="40" y="96" width="262" height="84" rx="14" fill="#ffffff" stroke="#d1d5db" filter="url(#sh)"/>
+<text x="56" y="130" font-size="15" font-weight="700" fill="#1f2937">Visitante / Postulante</text>
+<text x="56" y="154" font-size="12.5" fill="#6b7280">Navegador: web y formularios</text>
+<rect x="344" y="96" width="262" height="84" rx="14" fill="#059669" stroke="#059669" filter="url(#sh)"/>
+<text x="360" y="130" font-size="15" font-weight="700" fill="#ffffff">Netlify · sitio web</text>
+<text x="360" y="154" font-size="12.5" fill="#d1fae5">HTML, CSS, JS y mallas PDF</text>
+<rect x="648" y="96" width="262" height="84" rx="14" fill="#059669" stroke="#059669" filter="url(#sh)"/>
+<text x="664" y="130" font-size="15" font-weight="700" fill="#ffffff">Netlify · función</text>
+<text x="664" y="154" font-size="12.5" fill="#d1fae5">/api/contacto (contacto.js)</text>
+<rect x="952" y="96" width="262" height="84" rx="14" fill="#064e3b" stroke="#064e3b" filter="url(#sh)"/>
+<text x="968" y="130" font-size="15" font-weight="700" fill="#ffffff">Supabase · API + Auth</text>
+<text x="968" y="154" font-size="12.5" fill="#d1fae5">Lectura/escritura y login</text>
+<rect x="1256" y="96" width="262" height="84" rx="14" fill="#064e3b" stroke="#064e3b" filter="url(#sh)"/>
+<text x="1272" y="130" font-size="15" font-weight="700" fill="#ffffff">Supabase · PostgreSQL</text>
+<text x="1272" y="154" font-size="12.5" fill="#d1fae5">25 tablas + RLS</text>
+<line x1="306" y1="138" x2="340" y2="138" stroke="#059669" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="610" y1="138" x2="644" y2="138" stroke="#059669" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="914" y1="138" x2="948" y2="138" stroke="#059669" stroke-width="2.5" marker-end="url(#arr)"/>
+<line x1="1218" y1="138" x2="1252" y2="138" stroke="#059669" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="40" y="200" font-size="12.5" fill="#6b7280">Flujo principal: el visitante carga la web desde Netlify → el formulario llama a la función → la función guarda o consulta en Supabase y envía el correo por SMTP.</text>
+<rect x="40" y="236" width="360" height="716" rx="18" fill="#ecfdf5" stroke="#a7f3d0"/>
+<text x="60" y="266" font-size="13" font-weight="800" letter-spacing="1.2" fill="#059669">ACADÉMICO</text>
+<rect x="440" y="236" width="360" height="716" rx="18" fill="#ecfdf5" stroke="#a7f3d0"/>
+<text x="460" y="266" font-size="13" font-weight="800" letter-spacing="1.2" fill="#059669">ADMISIÓN</text>
+<rect x="840" y="236" width="360" height="826" rx="18" fill="#ecfdf5" stroke="#a7f3d0"/>
+<text x="860" y="266" font-size="13" font-weight="800" letter-spacing="1.2" fill="#059669">CONTENIDO WEB</text>
+<rect x="1240" y="236" width="360" height="716" rx="18" fill="#ecfdf5" stroke="#a7f3d0"/>
+<text x="1260" y="266" font-size="13" font-weight="800" letter-spacing="1.2" fill="#059669">ATENCIÓN Y PERSONAL</text>
+<path d="M380,330 L388,330 L388,440 L380,440" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M380,440 L393,440 L393,770 L380,770" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M380,440 L398,440 L398,550 L380,550" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M380,550 L403,550 L403,660 L380,660" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M780,330 L788,330 L788,440 L780,440" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M780,330 L793,330 L793,660 L780,660" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M780,550 L798,550 L798,660 L780,660" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M380,440 C420.0,440 420.0,660 460,660" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.55" stroke-dasharray="none"/>
+<path d="M780,660 L803,660 L803,770 L780,770" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M780,440 L808,440 L808,770 L780,770" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M780,550 L813,550 L813,880 L780,880" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M780,550 C1020.0,550 1020.0,660 1260,660" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.55" stroke-dasharray="none"/>
+<path d="M1180,330 L1188,330 L1188,440 L1180,440" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M1180,440 L1193,440 L1193,550 L1180,550" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M1260,770 C1220.0,770 1220.0,660 1180,660" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.55" stroke-dasharray="none"/>
+<path d="M1580,770 L1588,770 L1588,330 L1580,330" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M1580,770 L1593,770 L1593,880 L1580,880" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.75"/>
+<path d="M380,440 C820.0,440 820.0,330 1260,330" fill="none" stroke="#059669" stroke-width="1.6" stroke-opacity="0.55" stroke-dasharray="none"/>
+<g filter="url(#sh)">
+<rect x="60" y="282" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="60" y="282" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="60" y="300" width="320" height="12" fill="#059669"/>
+</g>
+<text x="74" y="303" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">facultades</text>
+<text x="74" y="334" font-size="12" fill="#1f2937">id · nombre · slug</text>
+<text x="74" y="352" font-size="12" fill="#1f2937">descripción · orden</text>
+<g filter="url(#sh)">
+<rect x="60" y="392" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="60" y="392" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="60" y="410" width="320" height="12" fill="#059669"/>
+</g>
+<text x="74" y="413" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">carreras</text>
+<text x="74" y="444" font-size="12" fill="#1f2937">facultad_id (FK) · nombre · slug</text>
+<text x="74" y="462" font-size="12" fill="#1f2937">tipo · modalidad · perfil · activa</text>
+<g filter="url(#sh)">
+<rect x="60" y="502" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="60" y="502" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="60" y="520" width="320" height="12" fill="#059669"/>
+</g>
+<text x="74" y="523" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">ciclos</text>
+<text x="74" y="554" font-size="12" fill="#1f2937">carrera_id (FK) · numero</text>
+<g filter="url(#sh)">
+<rect x="60" y="612" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="60" y="612" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="60" y="630" width="320" height="12" fill="#059669"/>
+</g>
+<text x="74" y="633" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">cursos</text>
+<text x="74" y="664" font-size="12" fill="#1f2937">ciclo_id (FK) · nombre · creditos</text>
+<g filter="url(#sh)">
+<rect x="60" y="722" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="60" y="722" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="60" y="740" width="320" height="12" fill="#059669"/>
+</g>
+<text x="74" y="743" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">carrera_perfil</text>
+<text x="74" y="774" font-size="12" fill="#1f2937">carrera_id (FK) · tipo</text>
+<text x="74" y="792" font-size="12" fill="#1f2937">texto · orden  (competencias / campo laboral)</text>
+<g filter="url(#sh)">
+<rect x="60" y="832" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="60" y="832" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="60" y="850" width="320" height="12" fill="#059669"/>
+</g>
+<text x="74" y="853" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">programas</text>
+<text x="74" y="884" font-size="12" fill="#1f2937">tipo · nombre · slug</text>
+<text x="74" y="902" font-size="12" fill="#1f2937">área · duración · activo</text>
+<g filter="url(#sh)">
+<rect x="460" y="282" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="460" y="282" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="460" y="300" width="320" height="12" fill="#059669"/>
+</g>
+<text x="474" y="303" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">periodos_admision</text>
+<text x="474" y="334" font-size="12" fill="#1f2937">codigo (2027-I) · nombre</text>
+<text x="474" y="352" font-size="12" fill="#1f2937">fechas de postulación · activo</text>
+<g filter="url(#sh)">
+<rect x="460" y="392" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="460" y="392" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="460" y="410" width="320" height="12" fill="#059669"/>
+</g>
+<text x="474" y="413" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">requisitos_admision</text>
+<text x="474" y="444" font-size="12" fill="#1f2937">periodo_id (FK)</text>
+<text x="474" y="462" font-size="12" fill="#1f2937">tipo_documento · obligatorio</text>
+<g filter="url(#sh)">
+<rect x="460" y="502" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="460" y="502" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="460" y="520" width="320" height="12" fill="#059669"/>
+</g>
+<text x="474" y="523" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">postulantes</text>
+<text x="474" y="554" font-size="12" fill="#1f2937">id = usuario de Supabase Auth</text>
+<text x="474" y="572" font-size="12" fill="#1f2937">nombres · apellidos · documento</text>
+<g filter="url(#sh)">
+<rect x="460" y="612" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="460" y="612" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="460" y="630" width="320" height="12" fill="#059669"/>
+</g>
+<text x="474" y="633" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">postulaciones</text>
+<text x="474" y="664" font-size="12" fill="#1f2937">postulante_id (FK) · periodo_id (FK)</text>
+<text x="474" y="682" font-size="12" fill="#1f2937">carrera_id (FK) · estado · puntaje</text>
+<g filter="url(#sh)">
+<rect x="460" y="722" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="460" y="722" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="460" y="740" width="320" height="12" fill="#059669"/>
+</g>
+<text x="474" y="743" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">documentos_postulacion</text>
+<text x="474" y="774" font-size="12" fill="#1f2937">postulacion_id (FK) · requisito_id (FK)</text>
+<text x="474" y="792" font-size="12" fill="#1f2937">archivo_path (Storage) · estado</text>
+<g filter="url(#sh)">
+<rect x="460" y="832" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="460" y="832" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="460" y="850" width="320" height="12" fill="#059669"/>
+</g>
+<text x="474" y="853" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">pagos</text>
+<text x="474" y="884" font-size="12" fill="#1f2937">postulante_id (FK) · postulacion_id (FK)</text>
+<text x="474" y="902" font-size="12" fill="#1f2937">concepto · monto · estado</text>
+<g filter="url(#sh)">
+<rect x="860" y="282" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="860" y="282" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="860" y="300" width="320" height="12" fill="#059669"/>
+</g>
+<text x="874" y="303" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">grupos_menu</text>
+<text x="874" y="334" font-size="12" fill="#1f2937">nombre · orden</text>
+<text x="874" y="352" font-size="12" fill="#1f2937">pagina_directa_id (FK)</text>
+<g filter="url(#sh)">
+<rect x="860" y="392" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="860" y="392" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="860" y="410" width="320" height="12" fill="#059669"/>
+</g>
+<text x="874" y="413" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">paginas</text>
+<text x="874" y="444" font-size="12" fill="#1f2937">slug · titulo · intro</text>
+<text x="874" y="462" font-size="12" fill="#1f2937">grupo_menu_id (FK) · publicada</text>
+<g filter="url(#sh)">
+<rect x="860" y="502" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="860" y="502" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="860" y="520" width="320" height="12" fill="#059669"/>
+</g>
+<text x="874" y="523" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">bloques_pagina</text>
+<text x="874" y="554" font-size="12" fill="#1f2937">pagina_id (FK) · tipo · orden</text>
+<text x="874" y="572" font-size="12" fill="#1f2937">contenido (jsonb)</text>
+<g filter="url(#sh)">
+<rect x="860" y="612" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="860" y="612" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="860" y="630" width="320" height="12" fill="#059669"/>
+</g>
+<text x="874" y="633" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">noticias</text>
+<text x="874" y="664" font-size="12" fill="#1f2937">titulo · slug · resumen</text>
+<text x="874" y="682" font-size="12" fill="#1f2937">autor_id (FK) · publicada</text>
+<g filter="url(#sh)">
+<rect x="860" y="722" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="860" y="722" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="860" y="740" width="320" height="12" fill="#059669"/>
+</g>
+<text x="874" y="743" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">eventos</text>
+<text x="874" y="774" font-size="12" fill="#1f2937">titulo · inicio · fin · lugar</text>
+<text x="874" y="792" font-size="12" fill="#1f2937">modalidad · publicado</text>
+<g filter="url(#sh)">
+<rect x="860" y="832" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="860" y="832" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="860" y="850" width="320" height="12" fill="#059669"/>
+</g>
+<text x="874" y="853" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">documentos_publicos</text>
+<text x="874" y="884" font-size="12" fill="#1f2937">categoria · titulo</text>
+<text x="874" y="902" font-size="12" fill="#1f2937">archivo_path (Storage)</text>
+<g filter="url(#sh)">
+<rect x="860" y="942" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="860" y="942" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="860" y="960" width="320" height="12" fill="#059669"/>
+</g>
+<text x="874" y="963" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">convocatorias</text>
+<text x="874" y="994" font-size="12" fill="#1f2937">puesto · área · tipo</text>
+<text x="874" y="1012" font-size="12" fill="#1f2937">activa</text>
+<g filter="url(#sh)">
+<rect x="1260" y="282" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="1260" y="282" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="1260" y="300" width="320" height="12" fill="#059669"/>
+</g>
+<text x="1274" y="303" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">consultas</text>
+<text x="1274" y="334" font-size="12" fill="#1f2937">carrera_id (FK) · atendido_por (FK)</text>
+<text x="1274" y="352" font-size="12" fill="#1f2937">nombre · email · estado</text>
+<g filter="url(#sh)">
+<rect x="1260" y="392" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="1260" y="392" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="1260" y="410" width="320" height="12" fill="#059669"/>
+</g>
+<text x="1274" y="413" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">reclamos</text>
+<text x="1274" y="444" font-size="12" fill="#1f2937">codigo · tipo · estado</text>
+<text x="1274" y="462" font-size="12" fill="#1f2937">detalle · fecha_limite</text>
+<g filter="url(#sh)">
+<rect x="1260" y="502" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="1260" y="502" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="1260" y="520" width="320" height="12" fill="#059669"/>
+</g>
+<text x="1274" y="523" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">denuncias</text>
+<text x="1274" y="554" font-size="12" fill="#1f2937">codigo · es_anonima · estado</text>
+<text x="1274" y="572" font-size="12" fill="#1f2937">detalle (canal confidencial)</text>
+<g filter="url(#sh)">
+<rect x="1260" y="612" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="1260" y="612" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="1260" y="630" width="320" height="12" fill="#059669"/>
+</g>
+<text x="1274" y="633" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">tramites</text>
+<text x="1274" y="664" font-size="12" fill="#1f2937">expediente · tipo · estado</text>
+<text x="1274" y="682" font-size="12" fill="#1f2937">postulante_id (FK) · archivo_path</text>
+<g filter="url(#sh)">
+<rect x="1260" y="722" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="1260" y="722" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="1260" y="740" width="320" height="12" fill="#059669"/>
+</g>
+<text x="1274" y="743" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">personal</text>
+<text x="1274" y="774" font-size="12" fill="#1f2937">id = usuario de Supabase Auth</text>
+<text x="1274" y="792" font-size="12" fill="#1f2937">rol (admin / admisiones / editor / atención)</text>
+<g filter="url(#sh)">
+<rect x="1260" y="832" width="320" height="96" rx="12" fill="#ffffff" stroke="#d1d5db"/>
+<rect x="1260" y="832" width="320" height="30" rx="12" fill="#059669"/>
+<rect x="1260" y="850" width="320" height="12" fill="#059669"/>
+</g>
+<text x="1274" y="853" font-size="14" font-weight="700" fill="#ffffff" font-family="Consolas, Menlo, monospace">auditoria</text>
+<text x="1274" y="884" font-size="12" fill="#1f2937">personal_id (FK)</text>
+<text x="1274" y="902" font-size="12" fill="#1f2937">accion · tabla · registro_id</text>
+<text x="40" y="1092" font-size="12.5" fill="#6b7280">Líneas verdes: relación por llave foránea (FK). El origen es la tabla padre; la de destino guarda la referencia.</text>
+<text x="40" y="1112" font-size="12.5" fill="#6b7280">Seguridad: RLS activo en las 25 tablas. El público lee solo contenido publicado; cada postulante ve sus datos; el personal accede según su rol.</text>
+<text x="40" y="1132" font-size="12.5" fill="#6b7280">Usuarios: postulantes y personal se autentican con Supabase Auth; su id es el mismo de auth.users.</text>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpkZGE0OTdlNi1lMGZlLTQyOGItYjRmMC1lMDFiMDc1MTA3MTgAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaKbV8bzWwNreyYynXdjFr6AAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoxNWM1OTg2NS0wMmFmLTRjMTMtOGY3Ni1mNjZjNjhlMjlkODVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo7ipZvk/AA70U7IZbt8YFqwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggp8bhwREASUUyEgfbm6kXiL8tralUe8cPozwwI6X2M/KkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaCNfowyvyrwbheGRcaIF2RsAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIAl2kXw+5boatesp2lnXfMSVNQJw4cn2KWFt7T6sH3LYZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GU9GZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmRkYTQ5N2U2LWUwZmUtNDI4Yi1iNGYwLWUwMWIwNzUxMDcxOC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmQ4NTBiNDhjLTNjMDEtNGQ2YS1hMWZlLTA2YTU2NjIwZDA4N3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCnxuHBEQBJRTISB9ubqReIvy2tqVR7xw+jPDAjpfYz8qJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggQVjzo6ntGjQW4HcptTV/O74r1WucgPlMBu+pCBMO8bSiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggZgpu2iWQOjbxfYizvst1vjbpXs5SBaOO2HrCs+qjeJl0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQKMfnPNbdgk4XrANRYjKDeOmtjlEfR+U9HppOXLOHcLtp5e6sEjtRMzGYJVouWbTKBO5iK4t9LXPtgMw489rP44=</c2pa:manifest></metadata></svg>
