@@ -1,0 +1,18 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# El formulario llama a /api/contacto; Netlify lo redirige a la función.
+[[redirects]]
+  from = "/api/contacto"
+  to = "/.netlify/functions/contacto"
+  status = 200
+
+# Pagos en línea: /api/pagos -> función de pagos
+[[redirects]]
+  from = "/api/pagos"
+  to = "/.netlify/functions/pagos"
+  status = 200
